@@ -1,0 +1,78 @@
+{
+  "nombre" : " electivaapis " ,
+  "versión" : " 0.0.1 " ,
+  "descripción" : " " ,
+  "autor" : " " ,
+  "privado" : cierto ,
+  "licencia" : " SIN LICENCIA " ,
+  "guiones" : {
+    "precompilación" : " rimraf dist " ,
+    "construir" : " construir nido " ,
+    "formato" : " más bonito --escribir \" src/**/*.ts \"  \" test/**/*.ts \" " ,
+    "inicio" : " inicio de nido " ,
+    "start:dev" : " nest start --watch " ,
+    "start:debug" : " nest start --debug --watch " ,
+    "start:prod" : " nodo dist/main " ,
+    "lint" : " eslint \" {src,aplicaciones,libs,prueba}/**/*.ts \" --fix " ,
+    "prueba" : " broma " ,
+    "prueba:reloj" : " broma --reloj " ,
+    "prueba:cov" : " broma --cobertura " ,
+    "test:debug" : " node --inspect-brk -r tsconfig-paths/register -r ts-node/register node_modules/.bin/jest --runInBand " ,
+    "prueba:e2e" : " broma --config./prueba/broma-e2e.json "
+  },
+  "dependencias" : {
+    "@nestjs/común" : " ^9.0.0 " ,
+    "@nestjs/config" : " ^2.2.0 " ,
+    "@nestjs/núcleo" : " ^9.0.0 " ,
+    "@nestjs/tipos-mapeados" : " ^1.2.0 " ,
+    "@nestjs/plataforma-express" : " ^9.0.0 " ,
+    "@nestjs/typeorm" : " ^9.0.1 " ,
+    "@tipos/pág" : " ^8.6.5 " ,
+    "cripto-js" : " ^4.1.1 " ,
+    "pg" : " ^8.8.0 " ,
+    "reflejar-metadatos" : " ^0.1.13 " ,
+    "rimraf" : " ^3.0.2 " ,
+    "rxjs" : " ^7.2.0 " ,
+    "tipoorm" : " ^0.3.10 "
+  },
+  "Dependencias de desarrollo" : {
+    "@nestjs/cli" : " ^9.0.0 " ,
+    "@nestjs/esquemas" : " ^9.0.0 " ,
+    "@nestjs/prueba" : " ^9.0.0 " ,
+    "@tipos/expreso" : " ^4.17.13 " ,
+    "@tipos/broma" : " 28.1.8 " ,
+    "@tipos/nodo" : " ^16.0.0 " ,
+    "@tipos/superprueba" : " ^2.0.11 " ,
+    "@typescript-eslint/eslint-plugin" : " ^5.0.0 " ,
+    "@typescript-eslint/parser" : " ^5.0.0 " ,
+    "eslint" : " ^8.0.1 " ,
+    "eslint-config-prettier" : " ^8.3.0 " ,
+    "eslint-plugin-prettier" : " ^4.0.0 " ,
+    "broma" : " 28.1.3 " ,
+    "más bonita" : " ^2.3.2 " ,
+    "soporte-mapa-fuente" : " ^0.5.20 " ,
+    "superprueba" : " ^6.1.3 " ,
+    "ts-broma" : " 28.0.8 " ,
+    "cargador ts" : " ^9.2.3 " ,
+    "ts-nodo" : " ^10.0.0 " ,
+    "tsconfig-paths" : " 4.1.0 " ,
+    "mecanografiado" : " ^4.7.4 "
+  },
+  "broma" : {
+    "moduleFileExtensions" : [
+      " js " ,
+      " json " ,
+      " t "
+    ],
+    "rootDir" : " origen " ,
+    "testRegex" : " .* \\ .spec \\ .ts$ " ,
+    "transformar" : {
+      "^.+ \\ .(t|j)s$" : " ts-broma "
+    },
+    "recogerCoberturaDe" : [
+      " **/*.(t|j)s "
+    ],
+    " directoriocobertura" : " ../cobertura " ,
+    "testEnvironment" : " nodo "
+  }
+}
