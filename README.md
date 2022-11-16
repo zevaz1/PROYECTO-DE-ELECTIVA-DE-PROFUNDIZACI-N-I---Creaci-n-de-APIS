@@ -1,5 +1,5 @@
 # PROYECTO-DE-ELECTIVA-DE-PROFUNDIZACI-N-I---Creaci-n-de-APIS
-@@ INTEGRANTE @@ Sebastian Cortes AND Jeremy Carrasquilla [@zevaz1](https://github.com/zevaz1).
+@@ INTEGRANTES @@ Sebastian Cortes AND Jeremy Carrasquilla [@zevaz1](https://github.com/zevaz1).
  
 ## Historia de Usuario EP-001 
 
