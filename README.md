@@ -1,6 +1,6 @@
 # PROYECTO-DE-ELECTIVA-DE-PROFUNDIZACI-N-I---Creaci-n-de-APIS
 @@ INTEGRANTES @@ 
-@zevaz1 @JeremyCarrasquilla [@zevaz1](https://github.com/zevaz1).
+[@zevaz1 @JeremyCarrasquilla](https://github.com/zevaz1).
  
 ## Historia de Usuario EP-001 
 
